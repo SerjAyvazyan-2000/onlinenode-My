@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: defcoinapp-test-service
+  namespace: deflationcoin-test
+spec:
+  selector:
+    app: defcoinapp-test
+  ports:
+    - port: 80
+      protocol: TCP
+      targetPort: 3000

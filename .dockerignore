@@ -1,0 +1,7 @@
+# Исключаем node_modules
+node_modules/
+kubernetes/
+
+deflation_config.yaml
+dockerfile
+build_deploy.sh
