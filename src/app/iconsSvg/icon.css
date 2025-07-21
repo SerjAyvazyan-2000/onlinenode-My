@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+.icon {
+    display: inline-block;
+    height: 1em;
+    width: 1em;
+    mask-size: contain;
+    -webkit-mask-size: contain;
+    mask-repeat: no-repeat;
+    -webkit-mask-repeat: no-repeat;
+    mask-position: center;
+    -webkit-mask-position: center;
+}
+.icon-arrow{
+    mask-image: url(arrow.svg);
+    -webkit-mask-image: url(arrow.svg);
+}
+
+.icon-cryptoExchange{
+    mask-image: url(cryptoExchange.svg);
+    -webkit-mask-image: url(cryptoExchange.svg);
+}
+.icon-chartArea{
+    mask-image: url(chartArea.svg);
+    -webkit-mask-image: url(chartArea.svg);
+}
+.icon-diceFive{
+         mask-image: url(diceFive.svg);
+    -webkit-mask-image: url(diceFive.svg);
+}
+
+.icon-shareNodes{
+    mask-image: url(shareNodes.svg);
+    -webkit-mask-image: url(shareNodes.svg);
+}
+.icon-gamepadSolid{
+        mask-image: url(gamepadSolid.svg);
+    -webkit-mask-image: url(gamepadSolid.svg);
+}
+.icon-heartSolid{
+            mask-image: url(heartSolid.svg);
+    -webkit-mask-image: url(heartSolid.svg);
+}
+
+.icon-earth{
+            mask-image: url(earth.svg);
+    -webkit-mask-image: url(earth.svg);
+}
+
+.icon-logoMobile{
+            mask-image: url(logoMobile.svg);
+    -webkit-mask-image: url(logoMobile.svg);
+}
+.icon-arrowDown{
+        mask-image: url(arrowDown.svg);
+    -webkit-mask-image: url(arrowDown.svg);
+}

@@ -47,6 +47,7 @@
     "react-pdf": "^9.2.1",
     "react-responsive": "^10.0.1",
     "recharts": "^2.15.1",
+    "swiper": "^11.2.10",
     "use-intl": "^3.26.5",
     "viem": "^2.22.9",
     "wagmi": "^2.14.8"

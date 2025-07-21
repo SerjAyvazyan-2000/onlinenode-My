@@ -1,24 +1,21 @@
+@import './iconsSvg/icon.css';
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
 
 @font-face {
   font-family: 'Stem';
   src: url('/fonts/Stem-Regular.woff') format('woff');
   font-weight: 400;
   font-style: normal;
+  font-display: swap;
 }
-
 @font-face {
   font-family: 'Stem';
   src: url('/fonts/Stem-Medium.woff') format('woff');
   font-weight: 500;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -26,10 +23,15 @@
   src: url('/fonts/Stem-Bold.woff') format('woff');
   font-weight: 700;
   font-style: normal;
+  font-display: swap;
 }
 
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Inter, sans-serif;
+
 }

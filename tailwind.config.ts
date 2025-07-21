@@ -16,11 +16,29 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        black: "#000000",
+
+        wheat: "#EFF2FB",
+        wheat2: "#D6DBEB",
+        white: "#FFFFFF",
+        white3: "#E2E6F4",
+
+        blue: "#141F36",
+
+        gray2: "#4E5C7A",
+        gray: " #5E5F62",
       },
       fontFamily: {
-        stem: ['Stem', 'sans-serif'],
+        stem: ["Stem", "sans-serif"],
+      },
+      zIndex: {
+        hero: "10",
+        content: "5",
+        background: "-1",
+        "bg-deep": "-2",
+        modal: "1000",
+        overlay: "900",
+        burger: "1001",
       },
     },
   },
